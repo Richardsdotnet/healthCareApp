@@ -5,14 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22be30d6-20a7-4ca7-80be-3604ad45b849" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/repo/userRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/healthCare/HealthCare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/healthCare/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/healthCare/dto/response/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/healthCare/utils/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/healthCare/HealthCareTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/healthCare/service/HealthCareUserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/healthCare/dto/request/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/healthCare/dto/request/UserLoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/healthCare/dto/request/UserRegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/healthCare/dto/request/UserRegistrationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/healthCare/dto/response/UserLoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/healthCare/dto/response/UserLoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/healthCare/dto/response/UserRegistrationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/healthCare/dto/response/UserRegistrationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/healthCare/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/healthCare/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/healthCare/repository/HealthCareUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/healthCare/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/healthCare/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/healthCare/service/HealthCareUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/healthCare/service/HealthCareUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/healthCare/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/healthCare/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/healthCareTest/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/richards/healthcare/healthCareTest/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/repo/userRepo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +45,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -44,23 +61,54 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/IdeaProjects/healthCareBackEnd&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Protocol Buffer Text&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e9f718e06f2872f02283b83a4b499ee4&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.healthCare.dto.response" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.healthCare" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.healthCare.service" />
       <recent name="healthCareTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean:clean" />
+      <command value="mvn clean:help" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HealthCare">
     <configuration name="HealthCareUserService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.healthCare.service.HealthCareUserService" />
       <module name="healthCare" />
@@ -70,6 +118,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HealthCareUserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="healthCare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.healthCare.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.healthCare.service" />
+      <option name="MAIN_CLASS_NAME" value="org.example.healthCare.service.HealthCareUserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HealthCareUserServiceTest.createAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="healthCare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.healthCare.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.healthCare.service" />
+      <option name="MAIN_CLASS_NAME" value="org.example.healthCare.service.HealthCareUserServiceTest" />
+      <option name="METHOD_NAME" value="createAccount" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,61 +168,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.loginTestCannotLogInWithWrongDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="healthCare" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="healthCareTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="healthCareTest" />
-      <option name="MAIN_CLASS_NAME" value="healthCareTest.UserServiceTest" />
-      <option name="METHOD_NAME" value="loginTestCannotLogInWithWrongDetails" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.loginTestUserCanLoginWithCorrectDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="healthCare" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="healthCareTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="healthCareTest" />
-      <option name="MAIN_CLASS_NAME" value="healthCareTest.UserServiceTest" />
-      <option name="METHOD_NAME" value="loginTestUserCanLoginWithCorrectDetails" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.userCanNotRegisterWithWrongPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HealthCare" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="healthCare" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.healthCare.HealthCare" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="healthCareTest.*" />
+          <option name="PATTERN" value="org.example.healthCare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="healthCareTest" />
-      <option name="MAIN_CLASS_NAME" value="healthCareTest.UserServiceTest" />
-      <option name="METHOD_NAME" value="userCanNotRegisterWithWrongPassword" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceTest" />
-        <item itemvalue="JUnit.UserServiceTest.loginTestUserCanLoginWithCorrectDetails" />
-        <item itemvalue="JUnit.UserServiceTest.userCanNotRegisterWithWrongPassword" />
+        <item itemvalue="Spring Boot.HealthCare" />
+        <item itemvalue="JUnit.HealthCareUserServiceTest" />
+        <item itemvalue="JUnit.HealthCareUserServiceTest.createAccount" />
         <item itemvalue="Application.HealthCareUserService" />
-        <item itemvalue="JUnit.UserServiceTest.loginTestCannotLogInWithWrongDetails" />
+        <item itemvalue="JUnit.UserServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +213,31 @@
       <workItem from="1687346920470" duration="17052000" />
       <workItem from="1687380644319" duration="8406000" />
       <workItem from="1687420076226" duration="705000" />
+      <workItem from="1687476024436" duration="25593000" />
+      <workItem from="1687529559994" duration="25516000" />
+      <workItem from="1687694998085" duration="3468000" />
+      <workItem from="1687718922315" duration="6471000" />
+      <workItem from="1687740894013" duration="2019000" />
+      <workItem from="1687743865768" duration="4349000" />
+      <workItem from="1687768079135" duration="1252000" />
+      <workItem from="1687808555200" duration="8929000" />
+      <workItem from="1687862959590" duration="1402000" />
+      <workItem from="1687899683206" duration="592000" />
+      <workItem from="1687943215208" duration="595000" />
+      <workItem from="1688112567982" duration="8940000" />
+      <workItem from="1688151044674" duration="5957000" />
+      <workItem from="1688243516903" duration="2628000" />
+      <workItem from="1688296503183" duration="1185000" />
+      <workItem from="1688322802508" duration="3238000" />
+      <workItem from="1688371890762" duration="1324000" />
+      <workItem from="1688414082175" duration="3359000" />
+      <workItem from="1688675396210" duration="690000" />
+      <workItem from="1688766143073" duration="641000" />
+      <workItem from="1688801195411" duration="1750000" />
+      <workItem from="1688816928900" duration="591000" />
+      <workItem from="1688856095442" duration="634000" />
+      <workItem from="1688931640776" duration="9321000" />
+      <workItem from="1689025974108" duration="2856000" />
     </task>
     <servers />
   </component>

@@ -15,6 +15,5 @@ public class UserLoginResponse {
     String message;
     String userName;
     String email;
-    String password;
     boolean isLoggedIn;
 }

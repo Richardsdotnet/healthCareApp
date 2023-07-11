@@ -1,17 +1,9 @@
 package org.example.healthCare.repository;
 
 import org.example.healthCare.models.User;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
-import java.util.List;
+public interface UserRepository extends MongoRepository<User, String> {
 
-public interface UserRepository{
-
-    int length();
-    void save(User user);
-    List<User> findAll();
-    User findUserByUserName(String userName);
-
-    User findUserById(String id);
-
-    boolean deleteUserById(String UserId);
 }
+

@@ -13,4 +13,6 @@ import lombok.NoArgsConstructor;
 
 public class UserRegistrationResponse {
     String message;
+    private String id;
+    private  String  name;
 }
